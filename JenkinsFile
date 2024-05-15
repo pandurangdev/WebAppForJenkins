@@ -3,7 +3,7 @@ pipeline agent any tools
 maven "3.9.6"
 Stages
 {
-stage('clean and install')
+stage('Clean and Install')
 {
 steps
 {
